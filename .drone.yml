@@ -1,0 +1,5 @@
+build:
+  image: node:5.4.1
+  commands:
+    - npm -d install
+    - npm test
